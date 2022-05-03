@@ -1,0 +1,10 @@
+uuid: deb57841-a973-4c0a-8609-a49700456539
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.token
+label: Token
+targetEntityType: contact_message
+cache: true
