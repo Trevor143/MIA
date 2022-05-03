@@ -1,0 +1,27 @@
+uuid: d7b4a05c-6e2d-495a-92c4-bd27ac13d6cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_document
+    - node.type.services
+  module:
+    - file
+id: node.services.field_document
+field_name: field_document
+entity_type: node
+bundle: services
+label: Document
+description: 'Only upload related documents for this service'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf doc png jpeg jpg'
+  max_filesize: 30MB
+  description_field: true
+field_type: file

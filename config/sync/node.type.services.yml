@@ -1,0 +1,18 @@
+uuid: 5ab6b843-7976-4973-b95d-e11a576ad7ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Services
+type: services
+description: 'This content type is to highlight services offered by the Ministry'
+help: 'Name of service offered by the ministry'
+new_revision: false
+preview_mode: 1
+display_submitted: false
